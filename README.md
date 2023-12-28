@@ -8,7 +8,7 @@ Moon CLang interface (mcapi)
 
 ## Installation
 
-**Install the Moon Logger using git**:
+**Install the MCAPI using git**:
 
 ```bash
 git clone https://github.com/reslaid/mcapi.git
