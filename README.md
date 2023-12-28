@@ -20,7 +20,7 @@ git clone https://github.com/reslaid/mcapi.git
 
 ```python
 import os
-from mcapi.dllapi import CEncoding, CTypes, DLLAPI
+from mcapi.dllapi import DLLAPI
 
 # Initialization
 dll: DLLAPI = DLLAPI(
