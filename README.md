@@ -29,5 +29,5 @@ dll: DLLAPI = DLLAPI(
     base_logger=None # accepted logging.Logger / None
 )
 
-# dll.call(function, *args)
+# dll.call('printf', 'text'.encode())
 ```
