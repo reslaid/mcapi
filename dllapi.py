@@ -160,6 +160,9 @@ class DLLAPI(CEncoding, CTypes):
             return self.call(attr, *args, **kwargs)
 
         return asyncio.run(async_wrapper())
+    
+    def get_CDLL(self):
+        return self._lib
 
     def get_attr(self, attr: str):
         attribute = getattr(self._libc, attr, None)
